@@ -15,7 +15,7 @@
   <p><i>python client.py </i><p>
   
   <p><b>NOTE</b></p>
-  <p>To stop the server,kill it with the pid generated</p>
+  <p>To stop the server,kill it using the pid generated</p>
   <p>FILE DESCRIPTION</p>
   
 <p><b>SERVER.PY</b> - sends nmea sentences to port 12345 on the local machine</p>
