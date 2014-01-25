@@ -28,6 +28,7 @@ class nmea_worker:
 				return nmea_objects
 				
 	def get_gpgga_attributes(self,nmea_objects):
+		self.clean_receiver()
 		for nmea_ob in nmea_objects:
 			if nmea_ob.sen_type=='GPGGA':
 				print "UTC of Position "+nmea_ob.sen_type
